@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["app/**/*", "components/**/*", "lib/**/*", "hooks/**/*", "providers/**/*", "services/**/*", "shared/**/*"],
+  "exclude": ["node_modules"]
+}
