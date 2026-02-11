@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { bookService } from '@/services/book.service';
 import { UpdateBookDto } from '@/shared/types/book.types';
 
-export async function GET(request: NextRequest, props: { params: Promise<{ id: string }> }) {
-  const { id } = await props.params;
+export async function GET(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   try {
     const book = await bookService.getBookById(id);
 
@@ -17,8 +17,8 @@ export async function GET(request: NextRequest, props: { params: Promise<{ id: s
   }
 }
 
-export async function PUT(request: NextRequest, props: { params: Promise<{ id: string }> }) {
-  const { id } = await props.params;
+export async function PUT(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   try {
     const body: UpdateBookDto = await request.json();
     const book = await bookService.updateBook(id, body);
@@ -29,8 +29,8 @@ export async function PUT(request: NextRequest, props: { params: Promise<{ id: s
   }
 }
 
-export async function DELETE(request: NextRequest, props: { params: Promise<{ id: string }> }) {
-  const { id } = await props.params;
+export async function DELETE(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   try {
     await bookService.deleteBook(id);
 
