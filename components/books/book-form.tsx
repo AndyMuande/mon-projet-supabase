@@ -370,7 +370,7 @@ export function BookForm({ initialData, onSubmit, isSubmitting }: BookFormProps)
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="bg-blue-500 hover:bg-blue-600"
+            className="bg-purple-600 hover:bg-purple-700"
           >
             {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
             {initialData ? 'Update Book' : 'Create Book'}
