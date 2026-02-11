@@ -94,7 +94,7 @@ export default function EditBookPage() {
           <div className="p-6 md:p-8">
             <BookForm
               initialData={book}
-              onSubmit={(data) => updateMutation.mutateAsync(data)}
+              onSubmit={async (data) => { await updateMutation.mutateAsync(data); }}
               isSubmitting={updateMutation.isPending}
             />
           </div>
