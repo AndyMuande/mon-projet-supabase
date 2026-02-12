@@ -1,3 +1,4 @@
+@@ -1,291 +1,12 @@
 'use client';
 
 import { useMemo } from 'react';
@@ -59,12 +60,13 @@ export default function Dashboard() {
     return books.slice(0, 6);
   }, [books]);
 
+export default function Home() {
   return (
     <div className="p-4 md:p-8 lg:p-10">
       {/* Header */}
       <div className="mb-10">
         <h1 className="mb-2 text-3xl font-bold md:text-4xl">
-          <span className="gradient-text">Dashboardd</span>
+          <span className="gradient-text">Dashboard</span>
         </h1>
         <p className="text-slate-400">Welcome back! Here's your library overview.</p>
       </div>
@@ -287,5 +289,12 @@ export default function Dashboard() {
         )}
       </div>
     </div>
+    <main>
+      <h1>Welcome to my app!</h1>
+      <p>This is some content on my homepage.</p>
+      <footer>
+        <p>Propulsé par mon IA</p>
+      </footer>
+    </main>
   );
 }
