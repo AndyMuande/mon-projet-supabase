@@ -1,1 +1,135 @@
-IyBCb29rVmF1bHQgLSBMaWJyYXJ5IE1hbmFnZW1lbnQgU3lzdGVtCgpBIHBy\nb2Zlc3Npb25hbCwgZnVsbC1zdGFjkGJvbyBtYW5hZ2VtZW50IGFwcGxpY2F0\naW9uIGJ1aWx0IHdpdGggbW9kZXJuIHdlYiB0ZWNobm9sb2dpZXMuCgojIyBG\nZWF0dXJlcwoKLSBbVGVzdCByw6lzdGlxdWUgd2l0aCBhZ2VudCBJQV0oLi4u\nKQotIFtUZXN0IGFwcG91ciBjb3JyZWN0aW9uXShodHRwczovL2NvZGVwaW4u\nb3JnL3NodXR0bGVmaWdodC9zaHV0dGxlLWZpZ2h0L3NodXR0bGVmaWdodC8p\nCi0gKipEYXNoYm9hcmQqKjogT3ZlcnZpZXcgd2l0aCBzdGF0aXN0aWNzLCBs\nb3cgc3RvY2sgYWxlcmRzLCBhbmQgcmVjZW50IGJvb2tzCi0gKipCb29rIE1h\nbmFnZW1lbnQqKjogQ29tcGxldGUgQ1JVRCBvcGVyYXRpb25zIGZvciBib29r\ncwotICoqU2VhcmNoICYgRmlsdGVyKio6IFNlYXJjaCBieSB0aXRsZSwgYXV0\naG9yLCBvciBJU0JOIHdpdGggY2F0ZWdvcnkgZmlsdGVyaW5nCi0gKipSZXNw\nb25zaXZlIERlc2lnbigqKjogTW9iaWxlLWZpcnN0IGFwcHJvYWNoIHdpdGgg\nYWRhcHRpdmUgbGF5b3V0cwotICoqTW9kZXJuIFVJKio6IEdsYXNzbW9ycGhp\nc20gZGVzaWduIHdpdGggZGFyayBtb2RlCi0gKipSZWFsLXRpbWUgVXBkYXRl\nczoqKjogVGFuU3RhY2sgUXVlcnkgZm9yIG9wdGltc3RpYyB1cGRhdGVzIGFu\nZCBjYWNoaW5nCgojIyBUZXN0IGFwcG91ciBjb3JyZWN0aW9uCgpUaGlzIGRl\nbW9ucyB0aGUgYWJpbGl0eSBkZSBtb2RpZmllciB1biBmaWNoaWVyIGRhbnMg\nbGUgcHJvamV0IGF1IHNpZ25pZmljYXRpdmUgYWZma5MgLiBOb3VzIGhhdmV6\nIGVujb21wcmVuZSB0b3V0cyB1cyBvdXRpbHMgYW5kIG5vdGlmIHBhciBvdXIg\nc3VwcG9ydLiBUb3V0IGxlIGNvZGUgZXN0IGV0b2l0IGRlIGZvbnRpb24gZXQ\nIGxlIGJhY2tlbmQgZXN0IGV0b2l0IGVudGllcmUuCgojIyBUZWNoIFN0YWNr\nCgojIyMgRnJvbnRlbmQKLSAqKk5leHQuanMgMTQqKjogUmVhY3QgZnJhbWV3\nb3JrIHdpdGggQXBwIFJvdXRlcgotICoqVHlwZVNjcmlwdCoqOiBUeXBlLXNh\nZmUgZGV2ZWxvcG1lbnQKLSAqKlRhaWx3aW5kIENTUyoqOiBVdGlsaXR5LWZp\ncmN0IHN0eWxpbmcKLSAqKlNoYWRjbi9VSSoqOiBCZWF1dGlmdWwgY29tcG9u\nZW50IGxpYnJhcnkKLSAqKlRhblN0YWNrIFF1ZXJ5Kio6IEFkdmVuY2VkIGRh\ndGEgZmV0Y2hpbmcgYW5kIHN0YXRlIG1hbmFnZW1lbnQKLSAqKlJlYWN0IEhv\nb2sgRm9ybSoqOiBGb3JtIG1hbmFnZW1lbnQgd2l0aCB2YWxpZGF0aW9uCi0g\nKipab2QqKjogU2NoZW1hIHZhbGlkYXRpb24KLSAqKkx1Y2lkZSBSZWFjdCoq\nOiBJY29uIGxpYnJhcnkKLSAqKlNvbm5lcioqOiBUb2FzdCBub3RpZmljYXRp\nb25zCgojIyMgQmFja2VuZAotICoqTmV4dC5qcyBBUEkgUm91dGVzKio6IFJF\nU1RmdWwgQVBJIGVuZHBvaW50cwotICoqU2VydmljZSBMYXllciBQYXR0ZXJu\nKio6IE5lc3RKUy1pbnNwaXJlZCBhcmNoaXRlY3R1cmUKLSAqKlN1cGFiYXNl\nKio6IFBvc3RncmVTUUwgZGF0YWJhc2Ugd2l0aCBSb3cgTGV2ZWwgU2VjdXJp\ndHkKLSAqKlR5cGVTY3JpcHQqKjogU2hhcmVkIHR5cGUgc2FmZSBkZXZlbG9w\nbWVudAoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYAoKL3RtcC9jYy1hZ2Vu\ndC82MzU5NDkyMy9wcm9qZWN0LwrilJzilIDilIAgYXBwLwrilIIgICA6pSU4\npSA4pSA4pSAIGFwaS8gICAgICAgICAgICAgICAgICAjIEFQSSByb3V0ZXMg\nKGJhY2tlbmQpCuKUgiAgIOKUgiAg4pSc4pSA4pSAIGJvb2tzLyAgICAgICAg\nICAgICAjIEJvb2sgZW5kcG9pbnRzCuKUgiAgIOKUgiAg4pSc4pSA4pSAIGRh\nc2hib2FyZC8gICAgICAjIERhc2hib2FyZCBzdGF0cwrilIIgICA6pSU4pSA4\npSA4pSAIGJvb2tzLyAgICAgICAgICAgICAgICAjIEJvb2sgcGFnZXMK4pSC\nICA6pSU4pSA4pSA4pSAIFtpZF0vICAgICAgICAgICMgQm9vayBkZXRhaWwg\nJiBlZGl0CuKUgiAgIOKUgiAg4pSc4pSA4pSAIG5ldy8gICAgICAgICAgICAg\nICAjIENyZWF0ZSBib29rCuKUgiAg4pSc4pSA4pSAIHNldHRpbmdzLyAgICAg\nICAgICAgICAgICAjIFNldHRpbmdzIHBhZ2UK4pSCIA6pSU4pSA4pSA4pSAI\nbGF5b3V0LnRzeCAgICAgICAgICAgICAgIyBSb290IGxheW91dArilIIg\nIA6pSU4pSA4pSA4pSAIcGFnZS50c3ggICAgICAgICAgICAgICAjIERhc2hib2Fy\nZArilJzilIDilIAgY29tcG9uZW50cy86pSU4pSA4pSA4pSAIGJvb2tzLyAg\nICAgICAgICAgICAgICAjIEJvb2stdXNlciBjb21wb25lbnRzCuKUgiAg4pSc\n4pSA4pSAIGxheW91dC8gICAgICAgICAgICAgICAjIExheW91dCBjb21wb25l\nbnRzCuKUgiAg4pSc4pSA4pSAIHVpLyAgICAgICAgICAgICAgICAgICAjIFNo\nYWRjbiBVSSBjb21wb25lbnRzCuKUnOKUgOKUgCBob29rcy8gICAgICAgICAg\nICAgICAgICAgICAjIEN1c2VyIFJlYWN0IGhvb2tzCuKUnOKUgOKUgCBsaWIv\nICAgICAgICAgICAgICAgICAgICAjIFV0aWxpdGllcwrilIIgIA6pSU4pSA4\npSAgU3VwYWJhc2UvICAgICAgICAgICAgICAgICAjIFN1cGFiYXNlIGNsaWVu\ndArilJzilIDilIAgcHJvdmlkZXJzLyAgICAgICAgICAgICAgICAjIFJlYWN0\nIHByb3ZpZGVycwrilJzilIDilIAgc2VydmljZXMvICAgICAgICAgICAgICAg\nICAjIEJ1c2luZXNzIGxvZ2ljIGxheWVyCuKUnOKUgOKUgCBzaGFyZWQvICAg\nICAgICAgICAgICAgICAgICAjIFNoYXJlZCBUeXBlU2NyaXB0IHR5cGVz\nCuKUgiAg4pSU4pSA4pSAIHB1YmxpYy86pSU4pSA4pSAgICAgICAgICAgICAg\nICAgICAjIFN0YXRpYyBhc3NldHMKCgojIyBHZXR0aW5nIFN0YXJ0ZWQKCjEu\nIEluc3RhbGwgZGVwZW5kZW5jaWVzOgogICBgYGBiYXNoCiAgIG5wbSBpbnN0\nYWxsCiAgIGBgYAoKMi4gU2V0IHVwIGVudmlyb25tZW50IHZhcmlhYmxlczoK\nICAgLSBDb3B5IGAuZW52LmxvY2FsLmV4YW1wbGVgIHRvIGAuZW52LmxvY2Fs\nYAogICAtIEFkZCB5b3VyIFN1cGFiYXNlIGNyZWRlbnRpYWxzCgozLiBSdW4g\ndGhlIGRldmVsb3BtZW50IHNlcnZlcjoKICAgYGBgYmFzaAogICBucG0gcnVu\nIGRldgogICBgYGAKCjQuIE9wZW4gW2h0cHA6Ly9sb2NhbGhvc3Q6MzAwMF0o\naHR0cDovL2xvY2FsaG9zdDozMDAwKQoKIyMgRGF0YWJhc2UgU2NoZW1hCgoj\nIyMgQm9va3MgVGFibGUKLSBgaWRgOiBVVUlEIChwcmltYXJ5IGtleSkK\nLSBgdGl0bGVgOiBCb29rIHRpdGxlCi0gYGF1dGhvcmA6IEF1dGhvciBuYW1l\nCi0gYGlzYm5gOiBJU0JOIG51bWJlciAob3B0aW9uYWwpCi0gYGNhdGVnb3J5\nYDogQm9vayBjYXRlZ29yeQotIGBwcmljZWA6IEJvb2sgcHJpY2UKLSBgc3Rv\nY2tgOiBBdmFpbGFibGUgc3RvY2sgcXVhbnRpdHkKLSBgZGVzY3JpcHRpb25g\nOiBCb29rIGRlc2NyaXB0aW9uIChvcHRpb25hbCkKLSBgcHVibGlzaGVyYDog\nUHVibGlzaGVyIG5hbWUgKG9wdGlvbmFsKQotIGBwdWJsaXNoZWRfeWVhcmA6\nIFllYXIgb2YgcHVibGljYXRpb24gKG9wdGlvbmFsKQotIGBjb3Zlcl9pbWFn\nZWA6IENvdmVyIGltYWdlIFVSTCAob3B0aW9uYWwpCi0gYGNyZWF0ZWRfYXRg\nOiBDcmVhdGlvbiB0aW1lc3RhbXAKLSBgdXBkYXRlZF9hdGA6IExhc3QgdXBk\nYXRlIHRpbWVzdGFtcAoKIyMgQVBJIEVuZHBvaW50cwoKLSBgR0VUIC9hcGkv\nYm9va3MgYCAgR2V0IGFsbCBib29rcyAod2l0aCBvcHRpb25hbCBzZWFyY2gv\nZmlsdGVyKQotIGBQT1NUIC9hcGkvYm9va3MgYCAgQ3JlYXRlIGEgbmV3IGJv\nb2sKLSBgR0VUIC9hcGkvYm9va3MvW2lkXWAgICBHZXQgYSBzcGVjaWZpYyBi\nb29rCi0gYFBVVCAvYXBpL2Jvb2tzL1tpZF1gICAtIFVwZGF0ZSBhIGJvb2sK\nLSBgREVMRVRFIC9hcGkvYm9va3MvW2lkXWAgICAtIERlbGV0ZSBhIGJvb2sK\nLSBgR0VUIC9hcGkvYm9va3MvY2F0ZWdvcmllc2AgICAtIEdldCBhbGwgY2F0\nZWdvcmllcwotIGBHRVQgL2FwaS9kYXNoYm9hcmQvc3RhdHNgICAtIEdldCBk\nYXNoYm9hcmQgc3RhdGlzdGljcwoKIyMgRGVzaWduIFN5c3RlbQoKCi0gKipD\nb2xvciBTY2hlbWUqKjogRGFyayBtb2RlIHdpdGggYmx1ZSBhY2NlbnQgY29s\nb3JzCi0gKipUeXBlb2dyYXBoeSoqOiBJbnRlciBmb250IGZhbWlseQotICoq\nR2xhc3Ntb3JwaGlzbSoqOiBGcm9zdGVkIGdsYXNzIGVmZmVjdHMgd2l0aCBz\ndWJ0bGUgc2hhZG93cwotICoqQW5pbWF0aW9ucyoqOiBTbW9vdGggdHJhbnNp\ndGlvbnMgYW5kIGhvcml6IGVmZmVjdHMKLSBbUmVzcG9uc2l2ZSoqOiBNb2Jp\nlGQtZmlyc3QgZGVzaWduIHdpdGggYnJlYWtwb2ludHMKCgojIyBTZWN1cml0\neQoKCi0gUm93IExldmVsIFNlY3VyaXR5IChSTFMpIGVuYWJsZWQgb24gYWxs\nIHRhYmxlcwotIEF1dGhlbnRpY2F0aW9uIHJlcXVpcmVkIGZvciB3cml0ZSBv\ncGVyYXRpb25zCi0gUHVibGljIHJlYWQgYWNjZXNzIGZvciBicm93c2luZwot\nIElucHV0IHZhbGlkYXRpb24gd2l0aCBab2Qgc2NoZW1hcwoKLSBUeXBlLXNh\nZmUgQVBJIGxheWVyCgojIyBCdWlsZAoKCkJ1aWxkIGZvciBwcm9kdWN0aW9u\nOgoKYGBgYmFzaApucG0gcnVuIGJ1aWxkCmBgYAoKU3RhcnQgcHJvZHVjdGlv\nbiBzZXJ2ZXI6CmBgYGJhc2gKbnBtIHN0YXJ0CmBgYAoKIyMgTGljZW5zZQoK\nTUlUCg==
+# BookVault - Library Management System
+
+A professional, full-stack book management application built with modern web technologies.
+
+## Features
+
+- **Dashboard**: Overview with statistics, low stock alerts, and recent books
+- **Book Management**: Complete CRUD operations for books
+- **Search & Filter**: Search by title, author, or ISBN with category filtering
+- **Responsive Design**: Mobile-first approach with adaptive layouts
+- **Modern UI**: Glassmorphism design with dark mode
+- **Real-time Updates**: TanStack Query for optimistic updates and caching
+
+## Tech Stack
+
+### Frontend
+- **Next.js 14**: React framework with App Router
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first styling
+- **Shadcn/UI**: Beautiful component library
+- **TanStack Query**: Advanced data fetching and state management
+- **React Hook Form**: Form management with validation
+- **Zod**: Schema validation
+- **Lucide React**: Icon library
+- **Sonner**: Toast notifications
+
+### Backend
+- **Next.js API Routes**: RESTful API endpoints
+- **Service Layer Pattern**: NestJS-inspired architecture
+- **Supabase**: PostgreSQL database with Row Level Security
+- **TypeScript**: Shared types between frontend and backend
+
+## Project Structure
+
+```
+/tmp/cc-agent/63594923/project/
+├── app/
+│   ├── api/                 # API routes (backend)
+│   │   ├── books/          # Book endpoints
+│   │   └── dashboard/      # Dashboard stats
+│   ├── books/              # Book pages
+│   │   ├── [id]/          # Book detail & edit
+│   │   └── new/           # Create book
+│   ├── settings/          # Settings page
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Dashboard
+├── components/
+│   ├── books/             # Book-specific components
+│   ├── layout/            # Layout components
+│   └── ui/                # Shadcn UI components
+├── hooks/                 # Custom React hooks
+├── lib/                   # Utilities
+│   └── supabase/         # Supabase client
+├── providers/            # React providers
+├── services/             # Business logic layer
+├── shared/               # Shared TypeScript types
+│   └── types/
+└── public/               # Static assets
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Set up environment variables:
+   - Copy `.env.local.example` to `.env.local`
+   - Add your Supabase credentials
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000)
+
+## Database Schema
+
+### Books Table
+- `id`: UUID (primary key)
+- `title`: Book title
+- `author`: Author name
+- `isbn`: ISBN number (optional)
+- `category`: Book category
+- `price`: Book price
+- `stock`: Available stock quantity
+- `description`: Book description (optional)
+- `publisher`: Publisher name (optional)
+- `published_year`: Year of publication (optional)
+- `cover_image`: Cover image URL (optional)
+- `created_at`: Creation timestamp
+- `updated_at`: Last update timestamp
+
+## API Endpoints
+
+- `GET /api/books` - Get all books (with optional search/filter)
+- `POST /api/books` - Create a new book
+- `GET /api/books/[id]` - Get a specific book
+- `PUT /api/books/[id]` - Update a book
+- `DELETE /api/books/[id]` - Delete a book
+- `GET /api/books/categories` - Get all categories
+- `GET /api/dashboard/stats` - Get dashboard statistics
+
+## Design System
+
+- **Color Scheme**: Dark mode with blue accent colors
+- **Typography**: Inter font family
+- **Glassmorphism**: Frosted glass effects with subtle shadows
+- **Animations**: Smooth transitions and hover effects
+- **Responsive**: Mobile-first design with breakpoints
+
+## Security
+
+- Row Level Security (RLS) enabled on all tables
+- Authentication required for write operations
+- Public read access for browsing
+- Input validation with Zod schemas
+- Type-safe API layer
+
+## Build
+
+Build for production:
+```bash
+npm run build
+```
+
+Start production server:
+```bash
+npm start
+```
+
+## License
+
+MIT
