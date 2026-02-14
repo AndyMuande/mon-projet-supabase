@@ -64,7 +64,7 @@ export default function Dashboard() {
       {/* Header */}
       <div className="mb-10">
         <h1 className="mb-2 text-3xl font-bold md:text-4xl">
-          <span className="gradient-text">Dashboarddd</span>
+          <span className="gradient-text">Dashboard Books</span>
         </h1>
         <p className="text-slate-400">Welcome back! Here's your library overview.</p>
       </div>
