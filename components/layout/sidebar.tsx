@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BookOpen, LayoutDashboard, Library, Plus, Settings, Menu, X } from 'lucide-react';
+import { BookOpen, LayoutDashboard, Library, Plus, Settings, Menu, X, FileText } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navigation = [
@@ -11,6 +11,7 @@ const navigation = [
   { name: 'Books', href: '/books', icon: Library },
   { name: 'Add Book', href: '/books/new', icon: Plus },
   { name: 'Settings', href: '/settings', icon: Settings },
+  { name: 'Documentation', href: '/api-docs', icon: FileText },
 ];
 
 export function Sidebar() {
@@ -91,9 +92,13 @@ export function Sidebar() {
               <p className="mt-1 text-xs text-slate-500">
                 Check our documentation for guides and tutorials
               </p>
-              <button className="mt-3 w-full rounded-md bg-white/10 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/20">
+              <Link
+                href="/api-docs"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="mt-3 block w-full rounded-md bg-white/10 px-3 py-1.5 text-center text-xs font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/20"
+              >
                 Documentation
-              </button>
+              </Link>
             </div>
           </div>
         </div>

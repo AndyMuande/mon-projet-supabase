@@ -1,8 +1,62 @@
 'use client';
 
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { Cog, Package, Bell, Shield, Code } from 'lucide-react';
 
+type SettingsState = {
+  libraryName: string;
+  description: string;
+  lowStockThreshold: number;
+  lowStockAlerts: boolean;
+  newBookUpdates: boolean;
+  systemNotifications: boolean;
+};
+
+const STORAGE_KEY = 'bookvault.settings';
+
+const DEFAULT_SETTINGS: SettingsState = {
+  libraryName: 'BookVault',
+  description: 'Your personal book library management system',
+  lowStockThreshold: 5,
+  lowStockAlerts: true,
+  newBookUpdates: false,
+  systemNotifications: true,
+};
+
 export default function SettingsPage() {
+  const [settings, setSettings] = useState<SettingsState>(DEFAULT_SETTINGS);
+  const [saveStatus, setSaveStatus] = useState<'idle' | 'saved' | 'error'>('idle');
+
+  useEffect(() => {
+    try {
+      const rawSettings = localStorage.getItem(STORAGE_KEY);
+      if (!rawSettings) return;
+
+      const parsed = JSON.parse(rawSettings) as Partial<SettingsState>;
+      setSettings({
+        libraryName: parsed.libraryName ?? DEFAULT_SETTINGS.libraryName,
+        description: parsed.description ?? DEFAULT_SETTINGS.description,
+        lowStockThreshold: parsed.lowStockThreshold ?? DEFAULT_SETTINGS.lowStockThreshold,
+        lowStockAlerts: parsed.lowStockAlerts ?? DEFAULT_SETTINGS.lowStockAlerts,
+        newBookUpdates: parsed.newBookUpdates ?? DEFAULT_SETTINGS.newBookUpdates,
+        systemNotifications: parsed.systemNotifications ?? DEFAULT_SETTINGS.systemNotifications,
+      });
+    } catch {
+      setSaveStatus('error');
+    }
+  }, []);
+
+  const handleSaveSettings = () => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
+      setSaveStatus('saved');
+      setTimeout(() => setSaveStatus('idle'), 2500);
+    } catch {
+      setSaveStatus('error');
+    }
+  };
+
   return (
     <div className="p-4 md:p-8 lg:p-10">
       {/* Header */}
@@ -30,14 +84,26 @@ export default function SettingsPage() {
               <label className="block text-sm font-medium text-slate-300">Library Name</label>
               <input
                 type="text"
-                defaultValue="BookVault"
+                value={settings.libraryName}
+                onChange={(event) =>
+                  setSettings((previous) => ({
+                    ...previous,
+                    libraryName: event.target.value,
+                  }))
+                }
                 className="w-full rounded-lg border border-white/10 bg-slate-800/50 px-4 py-2 text-white placeholder-slate-500 transition-colors focus:border-blue-500/50 focus:outline-none"
               />
             </div>
             <div className="space-y-2">
               <label className="block text-sm font-medium text-slate-300">Description</label>
               <textarea
-                defaultValue="Your personal book library management system"
+                value={settings.description}
+                onChange={(event) =>
+                  setSettings((previous) => ({
+                    ...previous,
+                    description: event.target.value,
+                  }))
+                }
                 rows={3}
                 className="w-full rounded-lg border border-white/10 bg-slate-800/50 px-4 py-2 text-white placeholder-slate-500 transition-colors focus:border-blue-500/50 focus:outline-none"
               />
@@ -59,7 +125,13 @@ export default function SettingsPage() {
             <label className="flex items-center gap-3">
               <input
                 type="checkbox"
-                defaultChecked={true}
+                checked={settings.lowStockAlerts}
+                onChange={(event) =>
+                  setSettings((previous) => ({
+                    ...previous,
+                    lowStockAlerts: event.target.checked,
+                  }))
+                }
                 className="h-4 w-4 rounded border-white/20 bg-slate-800 text-blue-500 focus:ring-blue-500"
               />
               <span className="text-sm text-slate-300">Low stock alerts</span>
@@ -67,7 +139,13 @@ export default function SettingsPage() {
             <label className="flex items-center gap-3">
               <input
                 type="checkbox"
-                defaultChecked={false}
+                checked={settings.newBookUpdates}
+                onChange={(event) =>
+                  setSettings((previous) => ({
+                    ...previous,
+                    newBookUpdates: event.target.checked,
+                  }))
+                }
                 className="h-4 w-4 rounded border-white/20 bg-slate-800 text-blue-500 focus:ring-blue-500"
               />
               <span className="text-sm text-slate-300">New book updates</span>
@@ -75,7 +153,13 @@ export default function SettingsPage() {
             <label className="flex items-center gap-3">
               <input
                 type="checkbox"
-                defaultChecked={true}
+                checked={settings.systemNotifications}
+                onChange={(event) =>
+                  setSettings((previous) => ({
+                    ...previous,
+                    systemNotifications: event.target.checked,
+                  }))
+                }
                 className="h-4 w-4 rounded border-white/20 bg-slate-800 text-blue-500 focus:ring-blue-500"
               />
               <span className="text-sm text-slate-300">System notifications</span>
@@ -98,7 +182,13 @@ export default function SettingsPage() {
               <label className="block text-sm font-medium text-slate-300">Low Stock Threshold</label>
               <input
                 type="number"
-                defaultValue="5"
+                value={settings.lowStockThreshold}
+                onChange={(event) =>
+                  setSettings((previous) => ({
+                    ...previous,
+                    lowStockThreshold: Number(event.target.value || DEFAULT_SETTINGS.lowStockThreshold),
+                  }))
+                }
                 min="1"
                 max="100"
                 className="w-full rounded-lg border border-white/10 bg-slate-800/50 px-4 py-2 text-white placeholder-slate-500 transition-colors focus:border-blue-500/50 focus:outline-none"
@@ -153,18 +243,33 @@ export default function SettingsPage() {
                 </code>
               </div>
             </div>
-            <button className="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10">
+            <Link
+              href="/api-docs"
+              className="block w-full rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-white/10"
+            >
               View API Documentation
-            </button>
+            </Link>
           </div>
         </div>
       </div>
 
       {/* Save Button */}
       <div className="mt-8 flex justify-end">
-        <button className="rounded-lg bg-blue-500 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-600">
+        <button
+          type="button"
+          onClick={handleSaveSettings}
+          className="rounded-lg bg-blue-500 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-600"
+        >
           Save Settings
         </button>
+      </div>
+      <div className="mt-3 text-right">
+        {saveStatus === 'saved' && (
+          <p className="text-sm text-green-400">Settings saved successfully.</p>
+        )}
+        {saveStatus === 'error' && (
+          <p className="text-sm text-red-400">Unable to save settings. Please try again.</p>
+        )}
       </div>
     </div>
   );
