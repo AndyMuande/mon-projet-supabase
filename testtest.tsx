@@ -9,6 +9,7 @@ const TestComponent: React.FC<TestComponentProps> = ({ title = "Test Component" 
     <div className="test-component">
       <h1>{title}</h1>
       <p>This is a simple test component.</p>
+      <p>Another paragraph added to the component.</p>
       <button onClick={() => console.log('Button clicked!')}>
         Click me
       </button>
