@@ -1,4 +1,4 @@
-=import React from 'react';
+import React from 'react';
 
 interface TestFinalProps {
   title?: string;
@@ -13,6 +13,11 @@ const TestFinal: React.FC<TestFinalProps> = ({ title = "Composant TestFinal" }) 
         <span>✅ Fonctionnel</span>
         <span>📦 Réutilisable</span>
         <span>🎨 Stylé avec CSS</span>
+      </div>
+      <div className="test-final-additional">
+        <span>🚀 Performant</span>
+        <span>🔧 Maintenable</span>
+        <span>✨ Élégant</span>
       </div>
     </div>
   );
